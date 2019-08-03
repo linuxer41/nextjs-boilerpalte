@@ -1,0 +1,6 @@
+localhost:82 {
+  root ./out
+  log ./out/localhost.log
+  ext .html
+  header / Server "test header"
+}
